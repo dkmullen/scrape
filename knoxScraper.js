@@ -18,6 +18,7 @@ puppeteer
       console.log($(this).text());
       console.log('////////////////////////////////////////', '\n\n');
     });
+    process.exit();
   })
   .catch(function(err) {
     //handle error

@@ -17,6 +17,7 @@ puppeteer
     $('.mat-card-title', html).each(function() {
       console.log($(this).text());
     });
+    process.exit();
   })
   .catch(function(err) {
     //handle error
